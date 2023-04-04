@@ -21,5 +21,6 @@ return [
         'fax' => 'Fax',
         'post_office_box' => 'Post office box',
         'opening_hours' => 'Opening hours',
+        'contacts_tab' => 'Contacts',
     ],
 ];
