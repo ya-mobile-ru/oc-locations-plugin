@@ -1,0 +1,10 @@
+name: Locations
+form: $/yamobile/locations/models/location/fields.yaml
+modelClass: Yamobile\Locations\Models\Location
+defaultRedirect: yamobile/locations/locations
+create:
+  redirect: "yamobile/locations/locations/update/:id"
+  redirectClose: yamobile/locations/locations
+update:
+  redirect: yamobile/locations/locations
+  redirectClose: yamobile/locations/locations

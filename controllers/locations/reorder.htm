@@ -1,0 +1,7 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('yamobile/locations/locations') ?>">Locations</a></li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+<?= $this->reorderRender() ?>
