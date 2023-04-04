@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'plugin' => [
+    'details' => [
         'name' => 'Locations',
         'description' => 'Easy to use system for managing company locations',
     ],

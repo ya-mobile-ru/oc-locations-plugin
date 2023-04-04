@@ -1,6 +1,11 @@
 plugin:
-  name: "yamobile.locations::lang.plugin.name"
-  description: "yamobile.locations::lang.plugin.description"
+  name: "yamobile.locations::lang.details.name"
+  description: "yamobile.locations::lang.details.description"
   author: Ya-mobile
   icon: oc-icon-map-marker
   homepage: "https://github.com/ya-mobile-ru/oc-locations-plugin"
+navigation:
+  yamobile-locations-locations-menu-item:
+    label: Locations
+    url: /yamobile/locations/locations
+    icon: icon-map-marker
