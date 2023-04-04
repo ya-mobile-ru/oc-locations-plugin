@@ -1,29 +1,29 @@
 fields:
   id:
-    label: Id
+    label: yamobile.locations::lang.location.id
     span: auto
     disabled: 1
     readOnly: 1
     type: number
   name:
-    label: Name
+    label: yamobile.locations::lang.location.name
     span: auto
     type: text
     required: true
   description:
-    label: Description
+    label: yamobile.locations::lang.location.description
     size: small
     span: full
     type: textarea
   created_at:
-    label: "Created at"
+    label: yamobile.locations::lang.location.created_at
     mode: datetime
     span: auto
     disabled: 1
     readOnly: 1
     type: datepicker
   updated_at:
-    label: "Updated at"
+    label: yamobile.locations::lang.location.updated_at
     mode: datetime
     span: auto
     disabled: 1
@@ -32,56 +32,56 @@ fields:
 tabs:
   fields:
     country:
-      label: Country
+      label: yamobile.locations::lang.location.country
       span: auto
       type: text
       tab: Contacts
       required: true
     region:
-      label: Region
+      label: yamobile.locations::lang.location.region
       span: auto
       type: text
       tab: Contacts
       required: true
     locality:
-      label: Locality
+      label: yamobile.locations::lang.location.locality
       span: auto
       type: text
       tab: Contacts
       required: true
     street:
-      label: Street
+      label: yamobile.locations::lang.location.street
       span: auto
       type: text
       tab: Contacts
       required: true
     geo_latitude:
-      label: "Geo latitude"
+      label: yamobile.locations::lang.location.geo_latitude
       span: auto
       type: text
       tab: Contacts
     geo_longitude:
-      label: "Geo longitude"
+      label: yamobile.locations::lang.location.geo_longitude
       span: auto
       type: text
       tab: Contacts
     postal_code:
-      label: "Postal code"
+      label: yamobile.locations::lang.location.postal_code
       span: auto
       type: text
       tab: Contacts
     fax:
-      label: Fax
+      label: yamobile.locations::lang.location.fax
       span: auto
       type: text
       tab: Contacts
     post_office_box:
-      label: "Post office box"
+      label: yamobile.locations::lang.location.post_office_box
       span: auto
       type: text
       tab: Contacts
     opening_hours:
-      label: "Opening hours"
+      label: yamobile.locations::lang.location.opening_hours
       span: auto
       type: text
       tab: Contacts
