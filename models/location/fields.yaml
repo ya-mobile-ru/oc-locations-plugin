@@ -1,0 +1,87 @@
+fields:
+  id:
+    label: Id
+    span: auto
+    disabled: 1
+    readOnly: 1
+    type: number
+  name:
+    label: Name
+    span: auto
+    type: text
+    required: true
+  description:
+    label: Description
+    size: small
+    span: full
+    type: textarea
+  created_at:
+    label: "Created at"
+    mode: datetime
+    span: auto
+    disabled: 1
+    readOnly: 1
+    type: datepicker
+  updated_at:
+    label: "Updated at"
+    mode: datetime
+    span: auto
+    disabled: 1
+    readOnly: 1
+    type: datepicker
+tabs:
+  fields:
+    country:
+      label: Country
+      span: auto
+      type: text
+      tab: Contacts
+      required: true
+    region:
+      label: Region
+      span: auto
+      type: text
+      tab: Contacts
+      required: true
+    locality:
+      label: Locality
+      span: auto
+      type: text
+      tab: Contacts
+      required: true
+    street:
+      label: Street
+      span: auto
+      type: text
+      tab: Contacts
+      required: true
+    geo_latitude:
+      label: "Geo latitude"
+      span: auto
+      type: text
+      tab: Contacts
+    geo_longitude:
+      label: "Geo longitude"
+      span: auto
+      type: text
+      tab: Contacts
+    postal_code:
+      label: "Postal code"
+      span: auto
+      type: text
+      tab: Contacts
+    fax:
+      label: Fax
+      span: auto
+      type: text
+      tab: Contacts
+    post_office_box:
+      label: "Post office box"
+      span: auto
+      type: text
+      tab: Contacts
+    opening_hours:
+      label: "Opening hours"
+      span: auto
+      type: text
+      tab: Contacts
