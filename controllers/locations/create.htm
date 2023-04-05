@@ -1,7 +1,7 @@
 <?php Block::put('breadcrumb') ?>
     <ul>
         <li>
-            <a href="<?= Backend::url('yamobile/locations/locations') ?>">Locations</a>
+            <a href="<?= Backend::url('yamobile/locations/locations') ?>"><?= e(trans('yamobile.locations::lang.location.breadcrumb')) ?></a>
         </li>
         <li><?= e($this->pageTitle) ?></li>
     </ul>

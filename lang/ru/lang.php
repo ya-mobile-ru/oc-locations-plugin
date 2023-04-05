@@ -22,5 +22,6 @@ return [
         'post_office_box' => 'Абонентский ящик',
         'opening_hours' => 'Часы работы',
         'contacts_tab' => 'Контакты',
+        'breadcrumb' => 'Локации',
     ],
 ];
