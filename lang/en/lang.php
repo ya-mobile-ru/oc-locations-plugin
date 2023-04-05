@@ -27,5 +27,6 @@ return [
         'breadcrumb_preview' => 'Locations',
         'breadcrumb_update' => 'Locations',
         'breadcrumb_reorder' => 'Locations',
+        'breadcrumb_index' => 'Locations',
     ],
 ];

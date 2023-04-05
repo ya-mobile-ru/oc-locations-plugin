@@ -27,5 +27,6 @@ return [
         'breadcrumb_preview' => 'Просмотр локации',
         'breadcrumb_update' => 'Обновление локации',
         'breadcrumb_reorder' => 'Сортировка локаций',
+        'breadcrumb_index' => 'Локации',
     ],
 ];
