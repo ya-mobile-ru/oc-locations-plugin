@@ -23,5 +23,9 @@ return [
         'opening_hours' => 'Часы работы',
         'contacts_tab' => 'Контакты',
         'breadcrumb' => 'Локации',
+        'breadcrumb_create' => 'Создание локации',
+        'breadcrumb_preview' => 'Просмотр локации',
+        'breadcrumb_update' => 'Обновление локации',
+        'breadcrumb_reorder' => 'Сортировка локаций',
     ],
 ];

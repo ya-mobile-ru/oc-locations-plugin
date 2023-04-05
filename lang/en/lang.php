@@ -23,5 +23,9 @@ return [
         'opening_hours' => 'Opening hours',
         'contacts_tab' => 'Contacts',
         'breadcrumb' => 'Locations',
+        'breadcrumb_create' => 'Locations',
+        'breadcrumb_preview' => 'Locations',
+        'breadcrumb_update' => 'Locations',
+        'breadcrumb_reorder' => 'Locations',
     ],
 ];
