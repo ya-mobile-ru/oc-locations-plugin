@@ -1,2 +1,10 @@
 1.0.1:
-  - Initialize plugin.
+  - "Initialize plugin."
+1.1.0:
+  - "Create table yamobile_locations_locations"
+  - create_yamobile_locations_locations.php
+  - "Add Locations"
+1.1.1:
+  - "Add sort_order to table yamobile_locations_locations"
+  - add_sort_order_to_yamobile_locations_locations.php
+  - "Fix sorting"

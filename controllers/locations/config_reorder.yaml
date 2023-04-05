@@ -1,0 +1,4 @@
+title: Locations
+modelClass: Yamobile\Locations\Models\Location
+toolbar:
+  buttons: reorder_toolbar
