@@ -9,3 +9,12 @@ navigation:
     label: Locations
     url: /yamobile/locations/locations
     icon: icon-map-marker
+    sideMenu:
+      yamobile-locations-locations:
+        label: Phones
+        url: /yamobile/locations/locations
+        icon: icon-map-marker
+      yamobile-locations-phones-menu-item:
+        label: Phones
+        url: /yamobile/locations/phones
+        icon: icon-phone
