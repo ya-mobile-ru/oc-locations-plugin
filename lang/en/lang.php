@@ -29,4 +29,17 @@ return [
         'breadcrumb_reorder' => 'Reorder locations',
         'breadcrumb_index' => 'Locations',
     ],
+    'phone' => [
+        'id' => 'ID',
+        'name' => 'Name',
+        'number' => 'Phone number',
+        'created_at' => 'Created at',
+        'updated_at' => 'Updated at',
+        'breadcrumb' => 'Phones',
+        'breadcrumb_create' => 'Create phone',
+        'breadcrumb_preview' => 'Preview phone',
+        'breadcrumb_update' => 'Update phone',
+        'breadcrumb_reorder' => 'Reorder phones',
+        'breadcrumb_index' => 'Phones',
+    ],
 ];

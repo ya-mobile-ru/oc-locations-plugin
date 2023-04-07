@@ -29,4 +29,17 @@ return [
         'breadcrumb_reorder' => 'Сортировка локаций',
         'breadcrumb_index' => 'Локации',
     ],
+    'phone' => [
+        'id' => 'ID',
+        'name' => 'Название',
+        'number' => 'Номер телефона',
+        'created_at' => 'Создано',
+        'updated_at' => 'Обновлено',
+        'breadcrumb' => 'Телефоны',
+        'breadcrumb_create' => 'Создание телефона',
+        'breadcrumb_preview' => 'Просмотр телефона',
+        'breadcrumb_update' => 'Обновление телефона',
+        'breadcrumb_reorder' => 'Сортировка телефонов',
+        'breadcrumb_index' => 'Телефоны',
+    ],
 ];
