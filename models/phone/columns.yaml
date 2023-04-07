@@ -1,0 +1,15 @@
+columns:
+  name:
+    label: yamobile.locations::lang.location.name
+    type: text
+    searchable: true
+  number:
+    label: yamobile.locations::lang.location.number
+    type: text
+    searchable: true
+  created_at:
+    label: yamobile.locations::lang.location.created_at
+    type: datetime
+  updated_at:
+    label: yamobile.locations::lang.location.updated_at
+    type: datetime
