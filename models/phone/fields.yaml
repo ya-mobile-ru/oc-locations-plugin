@@ -1,9 +1,9 @@
 fields:
   name:
-    label: yamobile.locations::lang.location.name
+    label: yamobile.locations::lang.phone.name
     span: auto
     type: text
   number:
-    label: yamobile.locations::lang.location.number
+    label: yamobile.locations::lang.phone.number
     span: auto
     type: text
