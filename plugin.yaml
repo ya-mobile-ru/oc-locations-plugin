@@ -6,6 +6,15 @@ plugin:
   homepage: "https://github.com/ya-mobile-ru/oc-locations-plugin"
 navigation:
   yamobile-locations-locations-menu-item:
-    label: Locations
+    label: "yamobile.locations::lang.details.name"
     url: /yamobile/locations/locations
     icon: icon-map-marker
+    sideMenu:
+      yamobile-locations-locations:
+        label: "yamobile.locations::lang.location.breadcrumb"
+        url: /yamobile/locations/locations
+        icon: icon-map-marker
+      yamobile-locations-phones-menu-item:
+        label: "yamobile.locations::lang.phone.breadcrumb"
+        url: /yamobile/locations/phones
+        icon: icon-phone

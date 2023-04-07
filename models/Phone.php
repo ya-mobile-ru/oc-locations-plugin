@@ -3,41 +3,34 @@
 namespace Yamobile\Locations\Models;
 
 use Model;
-use Yamobile\Locations\Models\Phone;
+use Yamobile\Locations\Models\Location;
 
 /**
  * Model
  */
-class Location extends Model
+class Phone extends Model
 {
     use \October\Rain\Database\Traits\Validation;
+    
     use \October\Rain\Database\Traits\SoftDelete;
-    use \October\Rain\Database\Traits\Sortable;
 
-    protected $dates = [
-        'deleted_at',
-    ];
+    protected $dates = ['deleted_at'];
 
 
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'yamobile_locations_locations';
+    public $table = 'yamobile_locations_phones';
 
     /**
      * @var array Validation rules
      */
     public $rules = [
-        'name' => 'required',
-        'country' => 'required',
-        'locality' => 'required',
-        'region' => 'required',
-        'street' => 'required',
     ];
 
     public $belongsToMany = [
-        'phones' => [
-            Phone::class,
+        'locations' => [
+            Location::class,
             'table' => 'yamobile_locations_locations_phones',
             'order' => 'name',
         ],

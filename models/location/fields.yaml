@@ -15,6 +15,13 @@ fields:
     size: small
     span: full
     type: textarea
+  phones:
+    label: Phones
+    nameFrom: number
+    descriptionFrom: name
+    span: full
+    type: partial
+    path: phones
   created_at:
     label: yamobile.locations::lang.location.created_at
     mode: datetime
