@@ -1,0 +1,25 @@
+<? $this->pageTitle = e(trans('yamobile.locations::lang.location.breadcrumb_preview')) ?>
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li>
+            <a href="<?= Backend::url('yamobile/locations/phones') ?>"><?= e(trans('yamobile.locations::lang.phone.breadcrumb')) ?></a>
+        </li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+
+<?php if (!$this->fatalError): ?>
+
+    <div class="form-preview">
+        <?= $this->formRenderPreview() ?>
+    </div>
+
+<?php else: ?>
+    <p class="flash-message static error"><?= e($this->fatalError) ?></p>
+<?php endif ?>
+
+<p>
+    <a href="<?= Backend::url('yamobile/locations/phones') ?>" class="btn btn-default oc-icon-chevron-left">
+        <?= e(trans('backend::lang.form.return_to_list')) ?>
+    </a>
+</p>
