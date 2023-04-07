@@ -3,6 +3,7 @@
 namespace Yamobile\Locations\Models;
 
 use Model;
+use Yamobile\Locations\Models\Phone;
 
 /**
  * Model
@@ -32,5 +33,13 @@ class Location extends Model
         'locality' => 'required',
         'region' => 'required',
         'street' => 'required',
+    ];
+
+    public $belongsToMany = [
+        'phones' => [
+            Phone::class,
+            'table' => 'yamobile_locations_locations_phones',
+            'order' => 'name',
+        ],
     ];
 }
