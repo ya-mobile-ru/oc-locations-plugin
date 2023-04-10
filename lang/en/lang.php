@@ -42,4 +42,70 @@ return [
         'breadcrumb_reorder' => 'Reorder phones',
         'breadcrumb_index' => 'Phones',
     ],
+    'settings' => [
+        'location' => [
+            'label' => 'Main location',
+            'description' => 'Changing main location`s contacts',
+            'category' => 'Content',
+            'keywords' => 'location, contacts',
+            'fields' => [
+                'name' => [
+                    'label' => 'Name',
+                    'placeholder' => 'Company',
+                ],
+                'description' => [
+                    'label' => 'Description',
+                    'placeholder' => 'Description',
+                ],
+                'phone' => [
+                    'label' => 'Phone',
+                    'placeholder' => '+1 (400) 000-00-00',
+                ],
+                'email' => [
+                    'label' => 'Email',
+                    'placeholder' => 'admin@gmail.com',
+                ],
+                'country' => [
+                    'label' => 'Country',
+                    'placeholder' => 'USA',
+                ],
+                'region' => [
+                    'label' => 'Region',
+                    'placeholder' => 'New York',
+                ],
+                'locality' => [
+                    'label' => 'Locality',
+                    'placeholder' => 'New York City',
+                ],
+                'street' => [
+                    'label' => 'Street',
+                    'placeholder' => '20 W 34th St.',
+                ],
+                'geo_latitude' => [
+                    'label' => 'Geocode (latitude)',
+                    'placeholder' => '40.7484',
+                ],
+                'geo_longitude' => [
+                    'label' => 'Geocode (longitude)',
+                    'placeholder' => '-73.9856',
+                ],
+                'postal_code' => [
+                    'label' => 'Postal code',
+                    'placeholder' => '00000',
+                ],
+                'fax' => [
+                    'label' => 'Fax',
+                    'placeholder' => '000-000-0000',
+                ],
+                'post_office_box' => [
+                    'label' => 'Post office box',
+                    'placeholder' => '567 Honeycomb Rd',
+                ],
+                'opening_hours' => [
+                    'label' => 'Opening hours',
+                    'placeholder' => 'Mo-Fr 09:00-18:00',
+                ],
+            ],
+        ],
+    ],
 ];
