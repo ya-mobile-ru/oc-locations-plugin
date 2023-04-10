@@ -1,0 +1,71 @@
+fields:
+  name:
+    label: yamobile.locations::lang.settings.location.fields.name.label
+    placeholder: yamobile.locations::lang.settings.location.fields.name.placeholder
+    span: auto
+    type: text
+  description:
+    label: yamobile.locations::lang.settings.location.fields.description.label
+    placeholder: yamobile.locations::lang.settings.location.fields.description.placeholder
+    span: auto
+    type: text
+  phone:
+    label: yamobile.locations::lang.settings.location.fields.phone.label
+    placeholder: yamobile.locations::lang.settings.location.fields.phone.placeholder
+    span: auto
+    type: text
+  email:
+    label: yamobile.locations::lang.settings.location.fields.email.label
+    placeholder: yamobile.locations::lang.settings.location.fields.email.placeholder
+    span: auto
+    type: text
+  country:
+    label: yamobile.locations::lang.settings.location.fields.country.label
+    placeholder: yamobile.locations::lang.settings.location.fields.country.placeholder
+    span: auto
+    type: text
+  region:
+    label: yamobile.locations::lang.settings.location.fields.region.label
+    placeholder: yamobile.locations::lang.settings.location.fields.region.placeholder
+    span: auto
+    type: text
+  locality:
+    label: yamobile.locations::lang.settings.location.fields.locality.label
+    placeholder: yamobile.locations::lang.settings.location.fields.locality.placeholder
+    span: auto
+    type: text
+  street:
+    label: yamobile.locations::lang.settings.location.fields.street.label
+    placeholder: yamobile.locations::lang.settings.location.fields.street.placeholder
+    span: auto
+    type: text
+  geo_latitude:
+    label: yamobile.locations::lang.settings.location.fields.geo_latitude.label
+    placeholder: yamobile.locations::lang.settings.location.fields.geo_latitude.placeholder
+    span: auto
+    type: text
+  geo_longitude:
+    label: yamobile.locations::lang.settings.location.fields.geo_longitude.label
+    placeholder: yamobile.locations::lang.settings.location.fields.geo_longitude.placeholder
+    span: auto
+    type: text
+  postal_code:
+    label: yamobile.locations::lang.settings.location.fields.postal_code.label
+    placeholder: yamobile.locations::lang.settings.location.fields.postal_code.placeholder
+    span: auto
+    type: text
+  fax:
+    label: yamobile.locations::lang.settings.location.fields.fax.label
+    placeholder: yamobile.locations::lang.settings.location.fields.fax.placeholder
+    span: auto
+    type: text
+  post_office_box:
+    label: yamobile.locations::lang.settings.location.fields.post_office_box.label
+    placeholder: yamobile.locations::lang.settings.location.fields.post_office_box.placeholder
+    span: auto
+    type: text
+  opening_hours:
+    label: yamobile.locations::lang.settings.location.fields.opening_hours.label
+    placeholder: yamobile.locations::lang.settings.location.fields.opening_hours.placeholder
+    span: auto
+    type: text
