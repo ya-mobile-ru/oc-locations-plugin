@@ -18,7 +18,7 @@ class Plugin extends PluginBase
                 'description' => 'yamobile.locations::lang.settings.location.description',
                 'category' => 'yamobile.locations::lang.settings.location.category',
                 'icon' => 'icon-map-marker',
-                'class' => \Yamobile\Locations\Models\Settings::class,
+                'class' => \Yamobile\Locations\Models\LocationSettings::class,
                 'order' => 500,
                 'keywords' => 'yamobile.locations::lang.settings.location.keywords'
             ]

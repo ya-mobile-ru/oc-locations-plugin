@@ -4,7 +4,7 @@ namespace Yamobile\Locations\Models;
 
 use October\Rain\Database\Model;
 
-class Settings extends Model
+class LocationSettings extends Model
 {
     public $implement = [
         \System\Behaviors\SettingsModel::class,
