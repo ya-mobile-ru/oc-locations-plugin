@@ -42,6 +42,50 @@ return [
         'breadcrumb_reorder' => 'Reorder phones',
         'breadcrumb_index' => 'Phones',
     ],
+    'detail' => [
+        'name' => 'Details',
+        'pages' => [
+            'index' => [
+                'title' => 'Details',
+                'breadcrumb' => 'Details',
+            ],
+            'preview' => [
+                'title' => 'Detail preview',
+                'breadcrumb' => 'Detail preview',
+            ],
+            'create' => [
+                'title' => 'Detail create',
+                'breadcrumb' => 'Detail create',
+            ],
+            'update' => [
+                'title' => 'Detail update',
+                'breadcrumb' => 'Detail update',
+            ],
+            'reorder' => [
+                'title' => 'Details reorder',
+                'breadcrumb' => 'Details reorder',
+            ],
+        ],
+        'fields' => [
+            'id' => [
+                'label' => 'ID',
+            ],
+            'name' => [
+                'label' => 'Name',
+                'placeholder' => 'Company name',
+            ],
+            'value' => [
+                'label' => 'Value',
+                'placeholder' => 'Company Ltd.',
+            ],
+            'created_at' => [
+                'label' => 'Created at',
+            ],
+            'updated_at' => [
+                'label' => 'Updated at',
+            ],
+        ],
+    ],
     'settings' => [
         'location' => [
             'label' => 'Main location',

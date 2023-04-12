@@ -1,0 +1,9 @@
+fields:
+  name:
+    label: yamobile.locations::lang.detail.fields.name.label
+    span: auto
+    type: text
+  value:
+    label: yamobile.locations::lang.detail.fields.value.label
+    span: auto
+    type: text
