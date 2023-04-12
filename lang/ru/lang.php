@@ -86,6 +86,12 @@ return [
             ],
         ],
     ],
+    'components' => [
+        'details' => [
+            'name' => 'Реквизиты',
+            'description' => 'Отображает реквизиты компании',
+        ],
+    ],
     'settings' => [
         'location' => [
             'label' => 'Главная локация',

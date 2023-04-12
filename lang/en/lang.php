@@ -86,6 +86,12 @@ return [
             ],
         ],
     ],
+    'components' => [
+        'details' => [
+            'name' => 'Details',
+            'description' => 'Displays company details',
+        ],
+    ],
     'settings' => [
         'location' => [
             'label' => 'Main location',
