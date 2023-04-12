@@ -42,6 +42,50 @@ return [
         'breadcrumb_reorder' => 'Сортировка телефонов',
         'breadcrumb_index' => 'Телефоны',
     ],
+    'detail' => [
+        'name' => 'Реквизиты',
+        'pages' => [
+            'index' => [
+                'title' => 'Реквизиты',
+                'breadcrumb' => 'Реквизиты',
+            ],
+            'preview' => [
+                'title' => 'Просмотр реквизита',
+                'breadcrumb' => 'Просмотр реквизита',
+            ],
+            'create' => [
+                'title' => 'Создание реквизита',
+                'breadcrumb' => 'Создание реквизита',
+            ],
+            'update' => [
+                'title' => 'Обновление реквизита',
+                'breadcrumb' => 'Обновление реквизита',
+            ],
+            'reorder' => [
+                'title' => 'Сортировка реквизитов',
+                'breadcrumb' => 'Сортировка реквизитов',
+            ],
+        ],
+        'fields' => [
+            'id' => [
+                'label' => 'ID',
+            ],
+            'name' => [
+                'label' => 'Название',
+                'placeholder' => 'Название компании',
+            ],
+            'value' => [
+                'label' => 'Значение',
+                'placeholder' => 'ООО «Компания»',
+            ],
+            'created_at' => [
+                'label' => 'Создано',
+            ],
+            'updated_at' => [
+                'label' => 'Обнавлено',
+            ],
+        ],
+    ],
     'settings' => [
         'location' => [
             'label' => 'Главная локация',
