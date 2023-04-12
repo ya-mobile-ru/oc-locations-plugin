@@ -16,3 +16,7 @@
   - create_yamobile_locations_locations_phones.php
 1.2.0:
   - "Add phones"
+1.3.0:
+  - "Add location settings"
+  - "Create company details"
+  - create_yamobile_locations_details.php
