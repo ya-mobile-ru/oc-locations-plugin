@@ -91,6 +91,10 @@ return [
             'name' => 'Details',
             'description' => 'Displays company details',
         ],
+        'locations' => [
+            'name' => 'Locations',
+            'description' => 'Displays company locations',
+        ],
     ],
     'settings' => [
         'location' => [
