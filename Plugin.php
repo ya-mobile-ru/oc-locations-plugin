@@ -6,10 +6,6 @@ use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
 {
-    public function registerComponents()
-    {
-    }
-
     public function registerSettings()
     {
         return [
@@ -22,6 +18,13 @@ class Plugin extends PluginBase
                 'order' => 500,
                 'keywords' => 'yamobile.locations::lang.settings.location.keywords'
             ]
+        ];
+    }
+
+    public function registerComponents()
+    {
+        return [
+            \Yamobile\Locations\Components\Details::class => 'Details',
         ];
     }
 }
