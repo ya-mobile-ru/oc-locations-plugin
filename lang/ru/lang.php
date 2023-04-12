@@ -91,6 +91,10 @@ return [
             'name' => 'Реквизиты',
             'description' => 'Отображает реквизиты компании',
         ],
+        'locations' => [
+            'name' => 'Локации',
+            'description' => 'Отображает локации компании',
+        ],
     ],
     'settings' => [
         'location' => [
