@@ -7,3 +7,9 @@ fields:
     label: yamobile.locations::lang.phone.number
     span: auto
     type: text
+  locations:
+    label: yamobile.locations::lang.phone.locations
+    nameFrom: name
+    descriptionFrom: description
+    span: full
+    type: relation

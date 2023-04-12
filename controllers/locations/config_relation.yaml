@@ -1,9 +1,0 @@
-phones:
-  label: "Номера телефонов"
-  view:
-    list: $/yamobile/locations/models/phone/columns.yaml
-    toolbarButtons: add|create|remove
-    deferredBinding: true
-  manage:
-    form: $/yamobile/locations/models/phone/fields.yaml
-    showSearch: true

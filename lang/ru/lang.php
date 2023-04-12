@@ -33,6 +33,7 @@ return [
         'id' => 'ID',
         'name' => 'Название',
         'number' => 'Номер телефона',
+        'locations' => 'Локации',
         'created_at' => 'Создано',
         'updated_at' => 'Обновлено',
         'breadcrumb' => 'Телефоны',

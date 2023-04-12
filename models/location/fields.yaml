@@ -20,8 +20,7 @@ fields:
     nameFrom: number
     descriptionFrom: name
     span: full
-    type: partial
-    path: phones
+    type: relation
   created_at:
     label: yamobile.locations::lang.location.created_at
     mode: datetime
