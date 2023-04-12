@@ -33,6 +33,7 @@ return [
         'id' => 'ID',
         'name' => 'Name',
         'number' => 'Phone number',
+        'locations' => 'Locations',
         'created_at' => 'Created at',
         'updated_at' => 'Updated at',
         'breadcrumb' => 'Phones',
