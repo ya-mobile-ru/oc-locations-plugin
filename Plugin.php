@@ -26,6 +26,7 @@ class Plugin extends PluginBase
         return [
             \Yamobile\Locations\Components\Details::class => 'Details',
             \Yamobile\Locations\Components\Locations::class => 'Locations',
+            \Yamobile\Locations\Components\Phones::class => 'Phones',
         ];
     }
 }
