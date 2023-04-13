@@ -1,17 +1,18 @@
 fields:
-  id:
-    label: yamobile.locations::lang.location.id
-    span: auto
-    disabled: 1
-    readOnly: 1
-    type: number
   name:
-    label: yamobile.locations::lang.location.name
+    label: "yamobile.locations::lang.location.name"
     span: auto
     type: text
     required: true
+  slug:
+    label: "yamobile.locations::lang.location.slug"
+    span: auto
+    preset:
+      field: name
+      type: slug
+    type: text
   description:
-    label: yamobile.locations::lang.location.description
+    label: "yamobile.locations::lang.location.description"
     size: small
     span: full
     type: textarea
@@ -22,14 +23,14 @@ fields:
     span: full
     type: relation
   created_at:
-    label: yamobile.locations::lang.location.created_at
+    label: "yamobile.locations::lang.location.created_at"
     mode: datetime
     span: auto
     disabled: 1
     readOnly: 1
     type: datepicker
   updated_at:
-    label: yamobile.locations::lang.location.updated_at
+    label: "yamobile.locations::lang.location.updated_at"
     mode: datetime
     span: auto
     disabled: 1
@@ -38,56 +39,71 @@ fields:
 tabs:
   fields:
     country:
-      label: yamobile.locations::lang.location.country
+      label: "yamobile.locations::lang.location.country"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
       required: true
     region:
-      label: yamobile.locations::lang.location.region
+      label: "yamobile.locations::lang.location.region"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
       required: true
     locality:
-      label: yamobile.locations::lang.location.locality
+      label: "yamobile.locations::lang.location.locality"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
       required: true
     street:
-      label: yamobile.locations::lang.location.street
+      label: "yamobile.locations::lang.location.street"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
       required: true
     geo_latitude:
-      label: yamobile.locations::lang.location.geo_latitude
+      label: "yamobile.locations::lang.location.geo_latitude"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
     geo_longitude:
-      label: yamobile.locations::lang.location.geo_longitude
+      label: "yamobile.locations::lang.location.geo_longitude"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
     postal_code:
-      label: yamobile.locations::lang.location.postal_code
+      label: "yamobile.locations::lang.location.postal_code"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
     fax:
-      label: yamobile.locations::lang.location.fax
+      label: "yamobile.locations::lang.location.fax"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
     post_office_box:
-      label: yamobile.locations::lang.location.post_office_box
+      label: "yamobile.locations::lang.location.post_office_box"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
     opening_hours:
-      label: yamobile.locations::lang.location.opening_hours
+      label: "yamobile.locations::lang.location.opening_hours"
       span: auto
       type: text
-      tab: yamobile.locations::lang.location.contacts_tab
+      tab: "yamobile.locations::lang.location.contacts_tab"
+    meta_title:
+      label: "yamobile.locations::lang.location.meta_title"
+      span: full
+      type: text
+      tab: "yamobile.locations::lang.location.seo_tab"
+    meta_description:
+      label: "yamobile.locations::lang.location.meta_description"
+      span: full
+      type: text
+      tab: "yamobile.locations::lang.location.seo_tab"
+    meta_keywords:
+      label: "yamobile.locations::lang.location.meta_keywords"
+      span: full
+      type: text
+      tab: "yamobile.locations::lang.location.seo_tab"
