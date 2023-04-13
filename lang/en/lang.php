@@ -101,6 +101,16 @@ return [
             'name' => 'Locations',
             'description' => 'Displays company locations',
         ],
+        'location' => [
+            'name' => 'Location',
+            'description' => 'Displays location',
+            'properties' => [
+                'slug' => [
+                    'title' => 'URL parameter',
+                    'description' => 'URL parameter for record',
+                ],
+            ],
+        ],
         'phones' => [
             'name' => 'Phones',
             'description' => 'Displays company phones',
