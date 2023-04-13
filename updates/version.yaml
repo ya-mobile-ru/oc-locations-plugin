@@ -20,3 +20,6 @@
   - "Add location settings"
   - "Create company details"
   - create_yamobile_locations_details.php
+1.4.0:
+  - Add slug and meta tag fields to yamobile_locations_locations
+  - builder_table_update_yamobile_locations_locations.php
