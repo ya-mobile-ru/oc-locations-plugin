@@ -1,10 +1,4 @@
 fields:
-  id:
-    label: yamobile.locations::lang.location.id
-    span: auto
-    disabled: 1
-    readOnly: 1
-    type: number
   name:
     label: yamobile.locations::lang.location.name
     span: auto
