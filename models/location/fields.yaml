@@ -92,3 +92,18 @@ tabs:
       span: auto
       type: text
       tab: "yamobile.locations::lang.location.contacts_tab"
+    meta_title:
+      label: "yamobile.locations::lang.location.meta_title"
+      span: full
+      type: text
+      tab: "yamobile.locations::lang.location.seo_tab"
+    meta_description:
+      label: "yamobile.locations::lang.location.meta_description"
+      span: full
+      type: text
+      tab: "yamobile.locations::lang.location.seo_tab"
+    meta_keywords:
+      label: "yamobile.locations::lang.location.meta_keywords"
+      span: full
+      type: text
+      tab: "yamobile.locations::lang.location.seo_tab"
