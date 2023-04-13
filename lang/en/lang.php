@@ -8,6 +8,7 @@ return [
     'location' => [
         'id' => 'ID',
         'name' => 'Name',
+        'slug' => 'URL',
         'description' => 'Description',
         'created_at' => 'Created at',
         'updated_at' => 'Updated at',
