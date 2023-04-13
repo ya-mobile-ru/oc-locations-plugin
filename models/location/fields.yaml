@@ -4,6 +4,13 @@ fields:
     span: auto
     type: text
     required: true
+  slug:
+    label: Text
+    span: auto
+    preset:
+      field: name
+      type: slug
+    type: text
   description:
     label: yamobile.locations::lang.location.description
     size: small
