@@ -9,7 +9,7 @@ class CreateEmployees extends Migration
 {
     public function up()
     {
-        Schema::create('yamobile_locations_employees', function($table)
+        Schema::create('yamobile_locations_employees', function ($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
