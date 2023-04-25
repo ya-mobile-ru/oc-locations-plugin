@@ -5,7 +5,7 @@ namespace Yamobile\Locations\Components;
 use Cms\Classes\ComponentBase;
 use Yamobile\Locations\Models\Detail;
 
-class Details extends ComponentBase
+class DetailsComponent extends ComponentBase
 {
     public function componentDetails()
     {

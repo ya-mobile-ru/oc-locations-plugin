@@ -115,6 +115,10 @@ return [
             'name' => 'Телефоны',
             'description' => 'Отображает телефоны компании',
         ],
+        'location_settings' => [
+            'name' => 'Настройки локации',
+            'description' => 'Выводит настройки главной локации',
+        ],
     ],
     'settings' => [
         'location' => [
@@ -123,6 +127,14 @@ return [
             'category' => 'Содержание',
             'keywords' => 'локация, контакты',
             'fields' => [
+                'logo' => [
+                    'label' => 'Логотип',
+                    'comment' => 'Логотип компании',
+                ],
+                'favicon' => [
+                    'label' => 'Favicon',
+                    'comment' => 'Favicon компании (256x256px)',
+                ],
                 'name' => [
                     'label' => 'Название',
                     'placeholder' => 'Компания',

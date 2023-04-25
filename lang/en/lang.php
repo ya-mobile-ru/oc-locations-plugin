@@ -115,6 +115,10 @@ return [
             'name' => 'Phones',
             'description' => 'Displays company phones',
         ],
+        'location_settings' => [
+            'name' => 'Location settings',
+            'description' => 'Displays main location settings',
+        ],
     ],
     'settings' => [
         'location' => [
@@ -123,6 +127,14 @@ return [
             'category' => 'Content',
             'keywords' => 'location, contacts',
             'fields' => [
+                'logo' => [
+                    'label' => 'Logo',
+                    'comment' => 'Company logo',
+                ],
+                'favicon' => [
+                    'label' => 'Favicon',
+                    'comment' => 'Company favicon (256x256px)',
+                ],
                 'name' => [
                     'label' => 'Name',
                     'placeholder' => 'Company',
