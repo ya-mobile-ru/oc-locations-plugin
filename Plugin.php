@@ -28,6 +28,7 @@ class Plugin extends PluginBase
             \Yamobile\Locations\Components\Locations::class => 'Locations',
             \Yamobile\Locations\Components\LocationComponent::class => 'Location',
             \Yamobile\Locations\Components\Phones::class => 'Phones',
+            \Yamobile\Locations\Components\LocationSettingsComponent::class => 'LocationSettings',
         ];
     }
 }
