@@ -115,6 +115,10 @@ return [
             'name' => 'Телефоны',
             'description' => 'Отображает телефоны компании',
         ],
+        'location_settings' => [
+            'name' => 'Настройки локации',
+            'description' => 'Выводит настройки главной локации',
+        ],
     ],
     'settings' => [
         'location' => [

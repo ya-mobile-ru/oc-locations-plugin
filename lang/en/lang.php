@@ -115,6 +115,10 @@ return [
             'name' => 'Phones',
             'description' => 'Displays company phones',
         ],
+        'location_settings' => [
+            'name' => 'Location settings',
+            'description' => 'Displays main location settings',
+        ],
     ],
     'settings' => [
         'location' => [
