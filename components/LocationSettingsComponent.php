@@ -25,6 +25,8 @@ class LocationSettingsComponent extends ComponentBase
     public function getSettings()
     {
         return [
+            'logo' => LocationSettings::get('logo'),
+            'favicon' => LocationSettings::get('favicon'),
             'name' => LocationSettings::get('name'),
             'description' => LocationSettings::get('description'),
             'phone' => LocationSettings::get('phone'),

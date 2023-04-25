@@ -123,6 +123,14 @@ return [
             'category' => 'Содержание',
             'keywords' => 'локация, контакты',
             'fields' => [
+                'logo' => [
+                    'label' => 'Логотип',
+                    'comment' => 'Логотип компании',
+                ],
+                'favicon' => [
+                    'label' => 'Favicon',
+                    'comment' => 'Favicon компании (256x256px)',
+                ],
                 'name' => [
                     'label' => 'Название',
                     'placeholder' => 'Компания',

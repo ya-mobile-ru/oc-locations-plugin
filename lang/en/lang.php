@@ -123,6 +123,14 @@ return [
             'category' => 'Content',
             'keywords' => 'location, contacts',
             'fields' => [
+                'logo' => [
+                    'label' => 'Logo',
+                    'comment' => 'Company logo',
+                ],
+                'favicon' => [
+                    'label' => 'Favicon',
+                    'comment' => 'Company favicon (256x256px)',
+                ],
                 'name' => [
                     'label' => 'Name',
                     'placeholder' => 'Company',

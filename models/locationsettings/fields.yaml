@@ -1,4 +1,16 @@
 fields:
+  logo:
+    label: yamobile.locations::lang.settings.location.fields.logo.label
+    commentAbove: yamobile.locations::lang.settings.location.fields.logo.comment
+    span: auto
+    mode: image
+    type: mediafinder
+  favicon:
+    label: yamobile.locations::lang.settings.location.fields.favicon.label
+    commentAbove: yamobile.locations::lang.settings.location.fields.favicon.comment
+    span: auto
+    mode: image
+    type: mediafinder
   name:
     label: yamobile.locations::lang.settings.location.fields.name.label
     placeholder: yamobile.locations::lang.settings.location.fields.name.placeholder
