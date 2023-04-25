@@ -24,10 +24,10 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            \Yamobile\Locations\Components\Details::class => 'Details',
-            \Yamobile\Locations\Components\Locations::class => 'Locations',
+            \Yamobile\Locations\Components\DetailsComponent::class => 'Details',
+            \Yamobile\Locations\Components\LocationsComponent::class => 'Locations',
             \Yamobile\Locations\Components\LocationComponent::class => 'Location',
-            \Yamobile\Locations\Components\Phones::class => 'Phones',
+            \Yamobile\Locations\Components\PhonesComponent::class => 'Phones',
             \Yamobile\Locations\Components\LocationSettingsComponent::class => 'LocationSettings',
         ];
     }

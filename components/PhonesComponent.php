@@ -5,7 +5,7 @@ namespace Yamobile\Locations\Components;
 use Cms\Classes\ComponentBase;
 use Yamobile\Locations\Models\Phone;
 
-class Phones extends ComponentBase
+class PhonesComponent extends ComponentBase
 {
     public function componentDetails()
     {
