@@ -28,10 +28,7 @@ This plugin provides 5 components:
 4. `Details`
 5. `Phones`
 
-
-All Components allow you to output information about categories or services to your template.
-Categories, Services and Prices added to the backend panel of your site will be available in the twig template.
-
+All Components allow you to output information about your organization to your template.
 
 
 ### Location
@@ -41,6 +38,10 @@ This component allows you to output information from the backend to your Twig te
 In this component supports the `slug` property, for part of the url.
 To use the component, you must enter `:slug` in the page url when creating the page.
 To display data on a page, the component has a function `get`:
+* id
+* meta_title
+* meta_description
+* meta_keywords
 * name
 * description
 * country
@@ -54,6 +55,10 @@ To display data on a page, the component has a function `get`:
 * geo_latitude
 * geo_longitude
 * opening_hours
+* created_at
+* updated_at
+* sort_order
+* deleted_at
 
 
 ``` Twig
@@ -105,7 +110,10 @@ slug = {{ :slug }}
 This component allows you to output location information
 from the backend to your twig template in any form convenient for you.
 In twig locations, you can output through a loop `for` and access any of their keys to get the value:
-
+* id
+* meta_title
+* meta_description
+* meta_keywords
 * name
 * description
 * country
@@ -119,6 +127,10 @@ In twig locations, you can output through a loop `for` and access any of their k
 * geo_latitude
 * geo_longitude
 * opening_hours
+* created_at
+* updated_at
+* sort_order
+* deleted_at
 
 
 ```Twig
@@ -129,6 +141,7 @@ In twig locations, you can output through a loop `for` and access any of their k
   <h1>{{ location.name }}</h1>
   <p><strong>Address: </strong>{{ Location.get.postal_code }}, {{ Location.get.country }}, {{ Location.get.locality }}, {{ Location.get.region }}, {{ Location.get.street }}</p>
 {% endfor %}
+
 ```
 
 
