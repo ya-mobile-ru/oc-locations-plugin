@@ -119,6 +119,10 @@ return [
             'name' => 'Настройки локации',
             'description' => 'Выводит настройки главной локации',
         ],
+        'page_settings' => [
+            'name' => 'Настройки страницы контактов',
+            'description' => 'Выводит настройки страницы контактов',
+        ],
     ],
     'settings' => [
         'location' => [
@@ -190,6 +194,38 @@ return [
                 'opening_hours' => [
                     'label' => 'Часы работы',
                     'placeholder' => 'Пн-Пт 09:00-18:00',
+                ],
+            ],
+        ],
+        'page' => [
+            'label' => 'Настройки страницы',
+            'description' => 'Изменение главной страницы контактов',
+            'category' => 'Содержание',
+            'keywords' => 'страница, контакты',
+            'fields' => [
+                'image' => [
+                    'label' => 'Изображение',
+                    'comment' => 'Для главной страницы контактов',
+                ],
+                'heading' => [
+                    'label' => 'Заголовок',
+                    'placeholder' => 'Контакты',
+                ],
+                'description' => [
+                    'label' => 'Описание',
+                    'placeholder' => 'Наши контакты и локации',
+                ],
+                'meta_title' => [
+                    'label' => 'Title',
+                    'placeholder' => 'Контакты',
+                ],
+                'meta_description' => [
+                    'label' => 'Description',
+                    'placeholder' => 'Наши контакты и локации.',
+                ],
+                'meta_keywords' => [
+                    'label' => 'Keywords',
+                    'placeholder' => 'контакты',
                 ],
             ],
         ],

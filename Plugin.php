@@ -17,7 +17,16 @@ class Plugin extends PluginBase
                 'class' => \Yamobile\Locations\Models\LocationSettings::class,
                 'order' => 500,
                 'keywords' => 'yamobile.locations::lang.settings.location.keywords'
-            ]
+            ],
+            'page' => [
+                'label' => 'yamobile.locations::lang.settings.page.label',
+                'description' => 'yamobile.locations::lang.settings.page.description',
+                'category' => 'yamobile.locations::lang.settings.page.category',
+                'icon' => 'icon-map-marker',
+                'class' => \Yamobile\Locations\Models\PageSettings::class,
+                'order' => 500,
+                'keywords' => 'yamobile.locations::lang.settings.page.keywords'
+            ],
         ];
     }
 
@@ -29,6 +38,7 @@ class Plugin extends PluginBase
             \Yamobile\Locations\Components\LocationComponent::class => 'Location',
             \Yamobile\Locations\Components\PhonesComponent::class => 'Phones',
             \Yamobile\Locations\Components\LocationSettingsComponent::class => 'LocationSettings',
+            \Yamobile\Locations\Components\PageSettingsComponent::class => 'PageSettings',
         ];
     }
 }
