@@ -23,3 +23,5 @@
 1.4.0:
   - Add slug and meta tag fields to yamobile_locations_locations
   - add_seo_to_yamobile_locations_locations.php
+1.5.0:
+  - Add page settings
