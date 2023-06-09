@@ -1,0 +1,32 @@
+fields:
+  image:
+    label: yamobile.locations::lang.settings.page.fields.image.label
+    commentAbove: yamobile.locations::lang.settings.page.fields.image.comment
+    span: auto
+    mode: image
+    type: mediafinder
+  heading:
+    label: yamobile.locations::lang.settings.page.fields.heading.label
+    placeholder: yamobile.locations::lang.settings.page.fields.heading.placeholder
+    span: full
+    type: text
+  description:
+    label: yamobile.locations::lang.settings.page.fields.description.label
+    placeholder: yamobile.locations::lang.settings.page.fields.description.placeholder
+    span: full
+    type: text
+  meta_title:
+    label: yamobile.locations::lang.settings.page.fields.meta_title.label
+    placeholder: yamobile.locations::lang.settings.page.fields.meta_title.placeholder
+    span: full
+    type: text
+  meta_description:
+    label: yamobile.locations::lang.settings.page.fields.meta_description.label
+    placeholder: yamobile.locations::lang.settings.page.fields.meta_description.placeholder
+    span: full
+    type: text
+  meta_keywords:
+    label: yamobile.locations::lang.settings.page.fields.meta_keywords.label
+    placeholder: yamobile.locations::lang.settings.page.fields.meta_keywords.placeholder
+    span: full
+    type: text

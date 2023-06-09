@@ -119,6 +119,10 @@ return [
             'name' => 'Location settings',
             'description' => 'Displays main location settings',
         ],
+        'page_settings' => [
+            'name' => 'Locations page settings',
+            'description' => 'Displays main location page settings',
+        ],
     ],
     'settings' => [
         'location' => [
@@ -190,6 +194,38 @@ return [
                 'opening_hours' => [
                     'label' => 'Opening hours',
                     'placeholder' => 'Mo-Fr 09:00-18:00',
+                ],
+            ],
+        ],
+        'page' => [
+            'label' => 'Page settings',
+            'description' => 'Change contacts page',
+            'category' => 'Content',
+            'keywords' => 'page, contacts',
+            'fields' => [
+                'image' => [
+                    'label' => 'Image',
+                    'comment' => 'For contacts page',
+                ],
+                'heading' => [
+                    'label' => 'Heading',
+                    'placeholder' => 'Contacts',
+                ],
+                'description' => [
+                    'label' => 'Description',
+                    'placeholder' => 'Our contacts and locations',
+                ],
+                'meta_title' => [
+                    'label' => 'Title',
+                    'placeholder' => 'Contacts',
+                ],
+                'meta_description' => [
+                    'label' => 'Description',
+                    'placeholder' => 'Our contacts and locations.',
+                ],
+                'meta_keywords' => [
+                    'label' => 'Keywords',
+                    'placeholder' => 'contacts',
                 ],
             ],
         ],
